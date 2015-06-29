@@ -1,0 +1,432 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+div.text{
+	width: 370px;
+	top: 50px;
+	left: 215px;
+	word-spacing: 370px;
+	font-size: 50px;
+	font-weight: bold;
+	color: #363636;
+	border-bottom: 12px solid #363636;
+	position: relative;
+}
+
+header{
+	width: 1600px;
+	height: 80px;
+	margin: 0 auto;
+	background-color: black;
+}
+
+/*NAVIGATION =============================================*/
+nav{
+	top: 30%;
+	position: relative;
+}
+div#link{
+	display: inline;
+}
+nav #logo{
+	color: #ffffff;
+	margin-left: 215px;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+nav #link{
+	margin-left: 130px;
+}
+
+nav ul{
+	display: inline-block;
+	list-style-type: none;
+}
+nav li{
+	width: 70px;
+	display: inline-block;
+	text-align: center;
+}
+
+nav a{
+	color: #ffffff;
+	text-decoration: none;
+}
+nav a:hover{
+	background-color: blue;
+}
+nav #signup{
+	padding: 3px 8px;
+	color: #42b8dd;
+	float: right;
+	margin-right: 215px;
+	border: 2px solid #42b8dd;
+	border-radius: 8px;
+}
+
+/*SLIDER=========================================================*/
+section#slider{
+	width: 1600px;
+	height: 820px;
+	margin: 0 auto;
+	background-color: #666666;
+}
+
+section#slider #desc{
+	width: 930px;
+	height: 130px;
+	left: 215px;
+	top: 40%;
+	position: relative;
+}
+
+section#slider #desc #play{
+	width: 130px;
+	height: 130px;
+	border: 22px solid white;
+	border-radius: 100%;
+	display: inline-block;
+	float: left;
+	position: relative;
+}
+
+section#slider #desc #show{
+	color: #ffffff;
+	font-size: 42px;
+	left: 40px;
+	top: 50%;
+	position: relative;
+	display: block;
+}
+
+section#slider #desc #click{
+	color: #49a8c5;
+	font-size: 12px;
+	left: 40px;
+	top: 70%;
+	position: relative;
+	display: block;
+}
+
+.triangle, .triangle:before, .triangle:after { width: 6em; height: 6em; }
+.triangle {
+    overflow: hidden;
+    position: relative;
+    margin: -0.5em 1.5em;
+    border-radius: 20%;
+    transform: translateY(50%) rotate(0deg) skewY(30deg) scaleX(.866);
+} 
+.triangle:before, .triangle:after {
+    position: absolute;
+    background: white;
+    content: '';
+}
+.triangle:before {
+    border-radius: 20% 20% 20% 53%;
+    transform: scaleX(1.155) skewY(-30deg) rotate(-30deg) translateY(-42.3%) 
+            skewX(30deg) scaleY(.866) translateX(-24%);
+}
+.triangle:after {
+    border-radius: 20% 20% 53% 20%;
+    transform: scaleX(1.155) skewY(-30deg) rotate(-30deg) translateY(-42.3%) 
+            skewX(-30deg) scaleY(.866) translateX(24%);
+}
+
+/*SERVICE============================================================*/
+section#service{
+	width: 1600px;
+	height: 360px;
+	margin: auto;
+	background-color: #42b8dd;
+}
+
+section#service div.text_service{
+	width: 370px;
+	margin-bottom: 100px;
+	margin-top: 50px;
+	margin-left: 215px;
+	word-spacing: 370px;
+	font-size: 50px;
+	font-weight: bold;
+	color: #ffffff;
+	border-bottom: 12px solid white;
+	float: left;
+}
+
+section #features{
+	color: #ffffff;
+	top: 50px;
+	position: relative;
+}
+
+section .feat{
+	padding-bottom: 50px;
+	float: left;
+	width: 450px;
+}
+
+section .feat img{
+	margin-top: -30px;
+	float: left;
+	padding: 20px;
+}
+
+/*ICONS=============================================================*/
+section#icon{
+	width: 1600px;
+	margin: auto;
+}
+
+section div#icons{
+	width: 1600px;
+	margin-left: 200px;
+}
+
+section #icons img{
+	padding: 60px 85px 60px 85px;
+}
+
+
+/*WORKS===============================================================*/
+section#works{
+	width: 1600px;
+	height: 100%;
+	margin: auto;
+	background-color: #ebebeb;
+}
+
+section#works span.work_link{
+	padding: 3px 8px;
+	color: #42b8dd;
+	border: 2px solid #42b8dd;
+	border-radius: 8px;
+	top: 80px;
+	left: 215px;
+	position: relative;
+}
+
+section#works a{
+	color: #42b8dd;
+	text-decoration: none;
+}
+
+section#works .work_link:hover{
+	background-color: #42b8dd;
+	text-decoration: none;
+}
+
+section#works a:hover{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+section#works div#images table{
+	margin-top: 120px;
+	margin-left: 185px;
+	border-spacing: 30px;
+    border-collapse: separate;
+}
+section#works div#images td{
+	width: 370px;
+	height: 370px;
+	background-color: #cccccc;
+}
+
+section#works div.popis{
+	top: 135px;
+	width: 370px;
+	height: 100px;
+	background-color: #ffffff;
+	position: relative;
+}
+
+section#works div.popis span.prj_name{
+	color: #42b8dd;
+	padding-top: 30px;
+	font-size: 14px;
+	text-align: center;
+	display: block;
+}
+
+section#works div.popis span.prj_desc{
+	padding-top: 15px;
+	font-size: 12px;
+	color: #b0b0b0;
+	text-align: center;
+	display: block;
+}
+
+div.button{
+	margin-left: 215px;
+	padding-bottom: 140px;
+}
+
+section#motto{
+	width: 1600px;
+	height: 350px;
+	margin: auto;
+	background-color: #666666;
+}
+
+section#motto p{
+	color: #ffffff;
+	width: 755px;
+	top: 60px;
+	margin: auto;
+	text-align: center;
+	font-size: 30px;
+	position: relative;
+}
+
+section#motto div#fotka{
+	width: 70px;
+	height: 70px;
+	margin: auto;
+	top: 70px;
+	position: relative;
+	background-color: #cccccc;
+	border-radius: 100%;
+}
+
+section#motto span#name{
+	color: #cccccc;
+	top: 70px;
+	position: relative;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	display: block;
+	text-align: center;
+}
+
+section#motto div#kruhy{
+	width: 50px;
+	display: block;
+	margin: auto;
+	top: 70px;
+	position: relative;
+}
+
+section#motto div.full_kruzok{
+	width: 10px;
+	height: 10px;
+	border-radius: 100%;
+	border: 2px solid #ffffff;
+	background-color: #ffffff;
+	display: inline-block;
+}
+
+section#motto div.kruzok{
+	width: 10px;
+	height: 10px;
+	border: 2px solid #ffffff;
+	border-radius: 100%;
+	display: inline-block;
+}
+
+section#team{
+	width: 1600px;
+	margin: auto;
+}
+
+section#team div#members{
+	margin-left: 215px;
+	margin-top: 130px;
+	height: 404px;
+}
+
+section#team div.clen{
+	width: 210px;
+	margin-right: 250px;
+	float: left;
+}
+
+section#team div.clen div.m_kruh{
+	width: 170px;
+	height: 170px;
+	background-color: #cccccc;
+	border-radius: 100%;
+	float: left;
+}
+
+section#team div.popis{
+	left: 90px;
+	position: relative;
+}
+
+span.meno{
+	color: #42b8dd;
+	font-size: 14px;
+	font-weight: bold;
+	padding-bottom: 10px;
+	display: block;
+}
+
+section#team div.clen span.funkcia{
+	padding-bottom: 10px;
+	display: block;
+}
+
+section#team div.social{
+	top: -110px;
+	left: 140px;
+	position: relative;
+}
+
+div.button2{
+	margin-top: 50px;
+	margin-left: 215px;
+	padding-bottom: 100px;
+}
+
+section#stats{
+	width: 1600px;
+	height: 350px;
+	margin: auto;
+	background-color: #666666;
+}
+
+section#stats div.polozka{
+	text-align: center;
+	float: left;
+	padding: 80px 130px 80px 130px;
+}
+
+section#stats div.polozka span.number{
+	font-size: 50px;
+	padding-top: 20px;
+	color: #ffffff;
+	display: block;
+}
+
+section#stats div.polozka span.popis{
+	font-size: 14px;
+	color: #ffffff;
+}
+
+section#skills{
+	width: 1600px;
+	margin: auto;
+}
+
+section#skills div#content{
+	margin-top: 150px;
+	margin-left: 215px;
+	width: 770px;
+	float: left;
+	
+}
+
+section#skills div#content div#skill_text{
+	margin-left: 100px;
+	padding-top: 50px;
+}
+
+section#skills aside#side_menu div.menu_item{
+	width: 370px;
+	height: 50px;
+	border: 1px solid black;
+	border-radius: 5px;
+}
